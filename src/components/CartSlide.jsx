@@ -12,7 +12,7 @@ export default function CartSlide() {
       {/* Cart Button */}
       <button
         onClick={() => setOpen(true)}
-        className="p-3 rounded-full bg-[#7aa6a3] hover:bg-gray-300"
+        className="p-3 rounded-full  bg-[#5e7b79] hover:bg-gray-300"
       >
         <IoCartOutline size={20} className="w-[20px] h-[20px]" />
       </button>

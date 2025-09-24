@@ -6,11 +6,11 @@ import AppRouter from '../routes/AppRouter'
 export default function MainLayout() {
   return (
     <>
-    <div className='bg-[#a6f8f2]'>
-    <Nav/>
-    <AppRouter/>
-    <Footer/>
-    </div>
+        <div className='bg-[#a6f8f2]'>
+          <Nav />
+          <AppRouter />
+          <Footer />
+        </div>
     </>
   )
 }
